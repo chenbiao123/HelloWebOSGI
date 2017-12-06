@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HelloWebOSGI
+Bundle-SymbolicName: HelloWebOSGI
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: hellowebosgi.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.framework;version="1.3.0",
+ org.osgi.service.http;version="1.2.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: javax.servlet;bundle-version="2.4.0"
